@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompilationUnit>
+<Package>com.parse.run</Package>
+<Import>javax.annotation.Resource</Import>
+<TypeDeclaration>
+<Javadoc>
+/** 
+ * @author Leslie
+ * 这是类ClassDemo的注释
+ */
+</Javadoc>
+<Modifier>public</Modifier>
+<Interface>false</Interface>
+<ClassName>test</ClassName>
+<SuperClassType>null</SuperClassType>
+<SuperInterfaces></SuperInterfaces>
+<Method>
+<Modifiers>public </Modifiers>
+<IsConstructor>true</IsConstructor>
+<ReturnType>null</ReturnType>
+<MethodName>test</MethodName>
+<Parameters></Parameters>
+<Statements><ExpressionStatement>
+System.out.println(&quot;I love Java&quot;)
+</ExpressionStatement>
+</Statements>
+</Method>
+<Method>
+<Modifiers>public static </Modifiers>
+<IsConstructor>false</IsConstructor>
+<ReturnType>void</ReturnType>
+<MethodName>main</MethodName>
+<Parameters>String args[] </Parameters>
+<Statements><VariableDeclarationStatement>
+<variableType>
+test
+</variableType>
+<variableFragments>
+[testJava=new test()]
+</variableFragments>
+</VariableDeclarationStatement>
+<VariableDeclarationStatement>
+<variableType>
+ClsA
+</variableType>
+<variableFragments>
+[clsA=new ClsA()]
+</variableFragments>
+</VariableDeclarationStatement>
+<VariableDeclarationStatement>
+<variableType>
+boolean
+</variableType>
+<variableFragments>
+[bool=true]
+</variableFragments>
+</VariableDeclarationStatement>
+<VariableDeclarationStatement>
+<variableType>
+int
+</variableType>
+<variableFragments>
+[num=4]
+</variableFragments>
+</VariableDeclarationStatement>
+<VariableDeclarationStatement>
+<variableType>
+char
+</variableType>
+<variableFragments>
+[charac='|']
+</variableFragments>
+</VariableDeclarationStatement>
+<ExpressionStatement>
+System.out.println(testJava instanceof test)
+</ExpressionStatement>
+<SwitchStatement>
+num
+<ExpressionStatement>
+System.out.println(&quot;case1 out&quot;)
+</ExpressionStatement>
+<BreakStatement>
+</BreakStatement>
+<BreakStatement>
+</BreakStatement>
+</SwitchStatement>
+<ForStatement>
+j &lt; 5
+<IfStatement>
+j > 3
+<BreakStatement>
+</BreakStatement>
+</IfStatement>
+</ForStatement>
+<VariableDeclarationStatement>
+<variableType>
+int
+</variableType>
+<variableFragments>
+[cd=0]
+</variableFragments>
+</VariableDeclarationStatement>
+<WhileStatement>
+cd &lt; 5
+<ExpressionStatement>
+cd++
+</ExpressionStatement>
+</WhileStatement>
+<ExpressionStatement>
+System.out.println(1 > 2 ? 3 : 4)
+</ExpressionStatement>
+<ExpressionStatement>
+System.out.println(&quot;tryout&quot;)
+</ExpressionStatement>
+<ExpressionStatement>
+e.setStackTrace(null)
+</ExpressionStatement>
+</Statements>
+</Method>
+</TypeDeclaration>
+<TypeDeclaration>
+<Javadoc>
+/** 
+ * @author Leslie
+ * 这是类ClsC的注释
+ */
+</Javadoc>
+<Modifier></Modifier>
+<Interface>false</Interface>
+<ClassName>ClsC</ClassName>
+<SuperClassType>ClsA</SuperClassType>
+<SuperInterfaces></SuperInterfaces>
+</TypeDeclaration>
+<TypeDeclaration>
+<Javadoc>
+null
+</Javadoc>
+<Modifier></Modifier>
+<Interface>false</Interface>
+<ClassName>ClsA</ClassName>
+<SuperClassType>null</SuperClassType>
+<SuperInterfaces></SuperInterfaces>
+<Javadoc>
+null
+</Javadoc>
+<Modifier></Modifier>
+<Interface>false</Interface>
+<ClassName>ClsB</ClassName>
+<SuperClassType>null</SuperClassType>
+<SuperInterfaces></SuperInterfaces>
+<Method>
+<Modifiers>public </Modifiers>
+<IsConstructor>false</IsConstructor>
+<ReturnType>int</ReturnType>
+<MethodName>method</MethodName>
+<Parameters>int s int e </Parameters>
+<Statements><VariableDeclarationStatement>
+<variableType>
+ClsA
+</variableType>
+<variableFragments>
+[clsA=new ClsA()]
+</variableFragments>
+</VariableDeclarationStatement>
+<ForStatement>
+i &lt; 10
+<ExpressionStatement>
+clsA.a+=i
+</ExpressionStatement>
+</ForStatement>
+<ExpressionStatement>
+s+=e
+</ExpressionStatement>
+<ReturnStatement>
+s + e
+</ReturnStatement>
+</Statements>
+</Method>
+</TypeDeclaration>
+</CompilationUnit>
